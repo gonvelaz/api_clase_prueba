@@ -10,7 +10,7 @@ import numpy as np
 app = Flask(__name__)
 app.config['DEBUG'] = True
 
-root = '/home/gonvelaz/api_clase_prueba/model_clas/'
+root = '/home/gonvelaz/api_clase_prueba/modelo_clas/'
 root_db = '/home/gonvelaz/api_clase_prueba/databases/'
 model = pickle.load(open(root + 'advertising.model', 'rb'))
 print(model.coef_)
